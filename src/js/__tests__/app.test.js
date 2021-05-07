@@ -1,4 +1,4 @@
-import getHelth from '../app';
+import getHelth from '../app.js';
 
 test('critical <15', () => {
   const result = getHelth({ name: 'Маг', health: 12 });
