@@ -13,7 +13,7 @@ install:
 
 build: off
 
-build-script: 
+build_script: 
   -npm run build  # команда сборки
 
 test_script:  
